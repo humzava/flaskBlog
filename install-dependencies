@@ -3,6 +3,6 @@ sudo systemctl stop myapp.service
 sudo apt install python3-pip -y
 sudo apt install python3-venv
 python3 -m venv venv
-source venv/bin/activate
+source /home/ubuntu/flaskBlog/venv/bin/activate
 pip3 install -r /home/ubuntu/flaskBlog/requirements.txt
 exit
