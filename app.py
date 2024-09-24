@@ -476,7 +476,7 @@ match __name__:
         print(terminalASCII())
 
         # Run the app with the debug mode, host and port settings
-        app.run(debug=DEBUG_MODE, host=APP_HOST, port=APP_PORT)
+        app.run(host=APP_HOST, port=APP_PORT)
 
         # Get the end time of the app
         endTime = currentTimeStamp()
